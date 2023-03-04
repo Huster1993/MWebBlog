@@ -1,146 +1,126 @@
-<!DOCTYPE HTML>
-<html>
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js"><!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<title>  
-	  
-  	我的MWeb博客网站
-  	
-	</title>
+  <meta charset="utf-8">
+  <title>
+    
+  我的MWeb博客网站
+  
+
+  </title>
+  <meta name="author" content="">
+  <meta name="description" content="">
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href="atom.xml" rel="alternate" title="我的MWeb博客网站" type="application/atom+xml">
-
-	<link href="asset/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<link href="asset/stylesheets/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<script src="asset/javascripts/jquery.min.js"></script>
-	
-
-	<!--[if lt IE 9]><script src="asset/javascripts/html5.js"></script><![endif]-->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'> -->
-	<style type="text/css">
-/* latin */
-@font-face {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Nunito-Light'), url(asset/font/1TiHc9yag0wq3lDO9cw0voX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin */
-@font-face {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Nunito-Regular'), url(asset/font/6TbRXKWJjpj6V2v_WyRbMX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin */
-@font-face {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Nunito-Bold'), url(asset/font/TttUCfJ272GBgSKaOaD7KoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-	</style>
-	
-	<style type="text/css">
-	.container .left-col{ opacity: 1;}
-	#pagenavi a{ font-size: 1.3em;}
-	#pagenavi .next:before{ top: 3px;}
-	#pagenavi .prev:before{ top: 3px;}
-	.container .mid-col .mid-col-container #content .archives .title{ font-size: 1.5em;}
-	.container .mid-col .mid-col-container #content article{ padding: 15px 0px;}
-	#header .subtitle {
-		line-height: 1.2em;
-		padding-top: 8px;
-	}
-	article pre{ background: none; border: none; padding: 0;}
-	article .entry-content{text-align: left;}
-	.share-comment{ padding: 25px 0px; clear: both;}
-	hr{ margin: 20px 0px;border: 0; border-top:solid 1px #ddd;}
-	</style>
   
-
+  <link href="asset/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="atom.xml" rel="alternate" title="我的MWeb博客网站" type="application/atom+xml">
+  <script src="asset/js/modernizr-2.0.js"></script>
+  <script src="asset/js/jquery.min.js"></script>
+  <style type="text/css">
+  .cat-children-p{ padding: 6px 0px;}
+  .hljs{background: none;}
+  </style>
+  <script type="text/javascript">
+  var isAddSildbar = true;
+  </script>
+  <script src="asset/js/octopress.js" type="text/javascript"></script>
 </head>
+<script type="text/javascript">
+//链接新开窗口
+function addBlankTargetForLinks () {
+  $('a[href^="http"]').each(function(){
+      $(this).attr('target', '_blank');
+  });
+}
+$(document).ready(function(event) {
+  addBlankTargetForLinks();
+});
+</script>
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="index.html">我的MWeb博客网站</a></h1>
+  
+    <h2></h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+
+  <li id=""><a target="_self" href="index.html">主页</a></li>
+
+  <li id=""><a target="_self" href="archives.html">归档</a></li>
+
+  <li id=""><a target="_self" href="mweb-about.html">关于我</a></li>
+
+  <li id=""><a target="_self" href="posts.html">博客</a></li>
+
+  <li id=""><a target="_self" href="mweb-connected.html">联系我</a></li>
+
+  <li id=""><a target="_self" href="all.html">所有文章</a></li>
+
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content"> 
+<div class="blog-index">
+
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="16767768997099.html">如何写书评</a></h1>
+			<p class="meta"><time datetime="2023-02-19T11:21:39+08:00" 
+			pubdate data-updated="true">2023/02/19</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<p>书评能给你一个分享个人见解，分析书籍优缺点的机会。其他人能从你的书评当中得到有用的信息，从而判断自己要不要去读这本书。</p>
+<h2><a id="%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>基本情况</h2>
+<p>写书评的目的是针对某本书发表自己的见解，说一说这本书有多成功、多有趣，同时也可以建议读者是否有必要进一步阅读。可以假设你的读者感兴趣，但并不是特别了解这本书或这位作者。要站在读者的角度头脑风暴。他们需要哪些信息？在读书前最想知道什么？阅读时可以把书的优缺点列一张单子，下笔的时候也有据可循。示范提纲中有一个组织书评的结构方法可供你参考。要给自己留出时间多打几次草稿。可能初稿会很长，没有你想的那么精炼，你也不可能把所有想说的话都写出来。在组织的过程中就要对内容有所选择，最后修改时要精炼，细节信息要准确，不要留下笔误或其他错误。</p>
+<hr />
+<blockquote>
+<p>示范提纲<br />
+书评的结构多种多样，这是一个最基本的范例，你可以根据自己的情况进行参考。<br />
+<strong>开头：</strong> 书籍的基本信息，包括作者、标题、出版信息（出版社和出版时间）、图书类别等。简单说几句就可以，主要是为了给读者一个大致的概念。<br />
+<strong>中间：</strong> 中间部分可以分为几段，逐步深入地对内容进行阐述。你可以和读者讲一讲书中哪些部分最精彩，并且列出具体的例子。针对非虚构类书籍，你还需要讲一讲作者的初衷、主题、论据和主要观点。这本书的优缺点是什么？你会推荐给人别读吗？原因是什么？<br />
+<strong>结尾：</strong> 总结自己的观点，读者还等着听这本书值不值得读呢，要阐明自己对这本书到底有什么看法。</p>
+</blockquote>
+<hr />
 
 
-<body>
-	<div class="container">
-		<div class="left-col">
-			<div class="intrude-less">
-				<header id="header" class="inner">
-				 
-					
-					<h1><a href="index.html">我的MWeb博客网站</a></h1>
-					<p class="subtitle"></p>
-					<nav id="main-nav">
-						<ul class="main">
-						
-						  <li id=""><a target="_self" href="index.html">主页</a></li>
-						
-						  <li id=""><a target="_self" href="archives.html">归档</a></li>
-						
-						  <li id=""><a target="_self" href="mweb-about.html">关于我</a></li>
-						
-						  <li id=""><a target="_self" href="posts.html">博客</a></li>
-						
-						  <li id=""><a target="_self" href="mweb-connected.html">联系我</a></li>
-						
-						  <li id=""><a target="_self" href="all.html">所有文章</a></li>
-						
-						</ul>
-					</nav>
-
-					<nav id="sub-nav">
-						<div class="social">
-
-
-
-
-
-
-
-
-
-
-
-
-
-								
-
-								<a class="rss" href="atom.xml" title="RSS">RSS</a>
-							
-						</div>
-					</nav>
-				</header>				
-			</div>
-		</div>	
-		<div class="mid-col">
-			<div class="mid-col-container"> <div id="content" class="inner">
-<div itemscope itemtype="http://schema.org/Blog">
-
-
-	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="meta">
-			<div class="date">
-				<time datetime="2023-02-16T16:46:02+08:00" itemprop="datePublished">2023/02/16</time>
-			</div>
-			<div class="tags">posted in 
-			
-			    <a class='category' href='posts.html'>posts</a>&nbsp;
-			 
-			</div>
 		</div>
-		<h1 class="title" itemprop="name"><a href="16765371621829.html" itemprop="url">
-		测试脚注功能</a></h1>
-		<div class="entry-content" itemprop="articleBody">
-			
-			<p>比如这是第一个<sup class="footnote-ref"><a href="#fn-1" id="fnref-1_ref" data-footnote-ref>1</a></sup>,这个第二个<sup class="footnote-ref"><a href="#fn-2" id="fnref-2_ref" data-footnote-ref>2</a></sup>，这是第三个<sup class="footnote-ref"><a href="#fn-3" id="fnref-3_ref" data-footnote-ref>3</a></sup></p>
+
+		
+
+	</article>
+ 
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="16765371621829.html">测试脚注功能</a></h1>
+			<p class="meta"><time datetime="2023-02-16T16:46:02+08:00" 
+			pubdate data-updated="true">2023/02/16</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<p>比如这是第一个<sup class="footnote-ref"><a href="#fn-1" id="fnref-1_ref" data-footnote-ref>1</a></sup>,这个第二个<sup class="footnote-ref"><a href="#fn-2" id="fnref-2_ref" data-footnote-ref>2</a></sup>，这是第三个<sup class="footnote-ref"><a href="#fn-3" id="fnref-3_ref" data-footnote-ref>3</a></sup></p>
 <section class="footnotes" data-footnotes>
 <ol>
 <li id="fn-1">
@@ -156,79 +136,58 @@
 </section>
 
 
-			
-			
 		</div>
+
+		
 
 	</article>
  
-	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="meta">
-			<div class="date">
-				<time datetime="2023-02-16T16:19:23+08:00" itemprop="datePublished">2023/02/16</time>
-			</div>
-			<div class="tags">posted in 
-			
-			    <a class='category' href='posts.html'>posts</a>&nbsp;
-			 
-			</div>
-		</div>
-		<h1 class="title" itemprop="name"><a href="16765355633436.html" itemprop="url">
-		MWeb+Github Pages搭建博客</a></h1>
-		<div class="entry-content" itemprop="articleBody">
-			
-			<h2><a id="%E6%96%B0%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E5%88%86%E7%B1%BB" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>新建静态网站分类</h2>
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="16765355633436.html">MWeb+Github Pages搭建博客</a></h1>
+			<p class="meta"><time datetime="2023-02-16T16:19:23+08:00" 
+			pubdate data-updated="true">2023/02/16</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<h2><a id="%E6%96%B0%E5%BB%BA%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E5%88%86%E7%B1%BB" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>新建静态网站分类</h2>
 <h2><a id="%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%EF%BC%8C%E5%9C%A8finder%E4%B8%AD%E6%89%BE%E5%88%B0%E4%BD%8D%E7%BD%AE" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>生成静态网站，在finder中找到位置</h2>
 <h2><a id="%E5%9C%A8github%E4%B8%8A%E6%96%B0%E5%BB%BArepos%EF%BC%8C%E5%90%8D%E5%AD%97%E9%9C%80%E8%A6%81%E4%B8%8E%E6%9C%AC%E5%9C%B0%E7%9A%84%E5%90%8D%E5%AD%97%E5%AE%8C%E5%85%A8%E7%9B%B8%E5%90%8C" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>在github上新建repos，名字需要与本地的名字完全相同</h2>
 <h2><a id="%E6%88%91%E6%96%B0%E5%A2%9E%E4%BA%86%E4%B8%80%E8%A1%8C%E6%96%87%E5%AD%97%EF%BC%8C%E4%BB%A3%E7%A0%81%E4%B8%8D%E4%BC%9A%E5%8F%88%E5%87%BA%E9%94%99%E5%90%A7" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>我新增了一行文字，代码不会又出错吧</h2>
 
 
-			
-			
 		</div>
+
+		
 
 	</article>
  
-	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="meta">
-			<div class="date">
-				<time datetime="2023-02-15T22:49:54+08:00" itemprop="datePublished">2023/02/15</time>
-			</div>
-			<div class="tags">posted in 
-			
-			    <a class='category' href='posts.html'>posts</a>&nbsp;
-			 
-			</div>
-		</div>
-		<h1 class="title" itemprop="name"><a href="16764725941407.html" itemprop="url">
-		想写一个642件可写的事</a></h1>
-		<div class="entry-content" itemprop="articleBody">
-			
-			<p>坚持写642篇文章</p>
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="16764725941407.html">想写一个642件可写的事</a></h1>
+			<p class="meta"><time datetime="2023-02-15T22:49:54+08:00" 
+			pubdate data-updated="true">2023/02/15</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<p>坚持写642篇文章</p>
 
 
-			
-			
 		</div>
+
+		
 
 	</article>
  
-	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="meta">
-			<div class="date">
-				<time datetime="2023-01-09T09:17:49+08:00" itemprop="datePublished">2023/01/09</time>
-			</div>
-			<div class="tags">posted in 
-			
-			    <a class='category' href='posts.html'>posts</a>&nbsp;
-			 
-			</div>
-		</div>
-		<h1 class="title" itemprop="name"><a href="16732270695159.html" itemprop="url">
-		关于博客的一点想法</a></h1>
-		<div class="entry-content" itemprop="articleBody">
-			
-			<pre class="line-numbers"><code class="language-plain_text">建立文档：2023年01月09日 09:19
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="16732270695159.html">关于博客的一点想法</a></h1>
+			<p class="meta"><time datetime="2023-01-09T09:17:49+08:00" 
+			pubdate data-updated="true">2023/01/09</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<pre class="line-numbers"><code class="language-plain_text">建立文档：2023年01月09日 09:19
 结束文档：
 全文字数：
 阅读时长：
@@ -236,28 +195,21 @@
 <p>今天早上我在整理我的iPad文件的时候，发现了这个域名管理，现在还是有点混乱，要说混乱其实也不混乱，<a href="rainnot.com">使用github静态页面管理的博客</a>，<a href="mweb.rainnot.com">使用mweb博客系统管理的博客</a>，<a href="nas.zhengfei.life">作为nas管理地址的一个域名</a>。这些应该都可以使用一个域名来进行管理，修改为rainnot.com，博客系统使用rainnot.com，mweb.rainnot.com；Nas使用nas.rainnot.com进行管理。这样来进行管理就能只付一个域名的钱，管理三个不同的东西。</p>
 
 
-			
-			
 		</div>
+
+		
 
 	</article>
  
-	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="meta">
-			<div class="date">
-				<time datetime="2022-06-13T21:45:56+08:00" itemprop="datePublished">2022/06/13</time>
-			</div>
-			<div class="tags">posted in 
-			
-			    <a class='category' href='posts.html'>posts</a>&nbsp;
-			 
-			</div>
-		</div>
-		<h1 class="title" itemprop="name"><a href="16551279569475.html" itemprop="url">
-		我的kindle变成泡面盖了吗？</a></h1>
-		<div class="entry-content" itemprop="articleBody">
-			
-			<p>今天是100天写作训练的第5天。</p>
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="16551279569475.html">我的kindle变成泡面盖了吗？</a></h1>
+			<p class="meta"><time datetime="2022-06-13T21:45:56+08:00" 
+			pubdate data-updated="true">2022/06/13</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<p>今天是100天写作训练的第5天。</p>
 <p>今天回顾一下以前看的一本书，奥地利作家罗伯特·谢塔勒的《读报纸的人》，翻译：陈佳。</p>
 <p><figure><img src="media/16551279569475/iShot_2022-06-13_22.27.13.png" alt="iShot_2022-06-13_22.27.13" /><figcaption>iShot_2022-06-13_22.27.13<figcaption></figure></p>
 <p>这本书是在云峰国际的河洛书苑看完的，一共分了两次去看，都是在店里面看的，很庆幸第二次去的时候这本书还在。</p>
@@ -290,58 +242,103 @@
 </blockquote>
 
 
-			
-			
 		</div>
+
+		
 
 	</article>
  
-	<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="meta">
-			<div class="date">
-				<time datetime="2022-04-16T22:49:07+08:00" itemprop="datePublished">2022/04/16</time>
-			</div>
-			<div class="tags">posted in 
-			
-			    <a class='category' href='posts.html'>posts</a>&nbsp;
-			 
-			</div>
-		</div>
-		<h1 class="title" itemprop="name"><a href="16501205473274.html" itemprop="url">
-		2022-04-16 22:49:07 下午</a></h1>
-		<div class="entry-content" itemprop="articleBody">
-			
-			<p>如果Ipad在边上的话，可以使用ipad作为副屏，记笔记。macbook air作为主屏展开学习。<sup class="footnote-ref"><a href="#fn-1" id="fnref-1_ref" data-footnote-ref>1</a></sup></p>
+	<article>
+		 <header>
+		  	<h1 class="entry-title"><a href="16501205473274.html">2022-04-16 22:49:07 下午</a></h1>
+			<p class="meta"><time datetime="2022-04-16T22:49:07+08:00" 
+			pubdate data-updated="true">2022/04/16</time></p>
+		 </header>
+	  	<div class="entry-content">
+		  	
+		  	<p>如果Ipad在边上的话，可以使用ipad作为副屏，记笔记。macbook air作为主屏展开学习。<sup class="footnote-ref"><a href="#fn-1" id="fnref-1_ref" data-footnote-ref>1</a></sup></p>
 
 
-			 
-			<a href="16501205473274.html#more" class="more-link">Read on &rarr;</a>
-    		
-			
 		</div>
+
+		 
+		 <footer>
+      	<a rel="full-article" href="16501205473274.html#more">read more &rarr;</a>
+    	</footer>
+    	
 
 	</article>
   
-
-</div>
-<nav id="pagenavi">
-	 
+	<div class="pagination">
 	
-	<div class="center"><a href="archives.html">Blog Archives</a></div>
-
-</nav>
-
-</div>
-
-
-
-        </div>
-			<footer id="footer" class="inner">Copyright &copy; 2014
-Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; 
-Theme by <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a>
-      </footer>
-		</div>
+<a href="archives.html">Blog Archives</a>
+	 
+	    
 	</div>
+</div>
+ <aside class="sidebar"> 
+
+	<section>
+	  <h1>Categories</h1>
+	  <ul id="recent_posts">
+	  
+	      <li class="post">
+	        <a href="posts.html"><strong>posts&nbsp;(6)</strong></a>
+	        
+	        
+	        
+	      </li>
+	   
+	  </ul>
+	</section>
+	<section>
+	  <h1>Recent Posts</h1>
+	  <ul id="recent_posts">
+	  
+	      
+		      <li class="post">
+		        <a href="16767768997099.html">如何写书评</a>
+		      </li>
+	     
+	  
+	      
+		      <li class="post">
+		        <a href="16765371621829.html">测试脚注功能</a>
+		      </li>
+	     
+	  
+	      
+		      <li class="post">
+		        <a href="16765355633436.html">MWeb+Github Pages搭建博客</a>
+		      </li>
+	     
+	  
+	      
+		      <li class="post">
+		        <a href="16764725941407.html">想写一个642件可写的事</a>
+		      </li>
+	     
+	  
+	      
+		      <li class="post">
+		        <a href="16732270695159.html">关于博客的一点想法</a>
+		      </li>
+	     
+	  
+	      
+	  
+	      
+	   
+	  </ul>
+	</section>
+	
+</aside> </div></div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 -  -
+  <span class="credit">Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; Theme by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
 
 
 
@@ -361,27 +358,49 @@ Theme by <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank 
 
 
 <style type="text/css">
-figure{margin: 1em 0;padding: 0;}
-  figcaption{text-align:center;}
-
+  
 /* PrismJS 1.14.0
-https://prismjs.com/download.html#themes=prism-coy&languages=markup+css+clike+javascript */
-/**
- * prism.js Coy theme for JavaScript, CoffeeScript, CSS and HTML
- * Based on https://github.com/tshedor/workshop-wp-theme (Example: http://workshop.kansan.com/category/sessions/basics or http://workshop.timshedor.com/category/sessions/basics);
- * @author Tim  Shedor
- */
+https://prismjs.com/download.html#themes=prism-solarizedlight&languages=markup+css+clike+javascript */
+/*
+ Solarized Color Schemes originally by Ethan Schoonover
+ http://ethanschoonover.com/solarized
+
+ Ported for PrismJS by Hector Matos
+ Website: https://krakendev.io
+ Twitter Handle: https://twitter.com/allonsykraken)
+*/
+
+/*
+SOLARIZED HEX
+--------- -------
+base03    #002b36
+base02    #073642
+base01    #586e75
+base00    #657b83
+base0     #839496
+base1     #93a1a1
+base2     #eee8d5
+base3     #fdf6e3
+yellow    #b58900
+orange    #cb4b16
+red       #dc322f
+magenta   #d33682
+violet    #6c71c4
+blue      #268bd2
+cyan      #2aa198
+green     #859900
+*/
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: black;
-  background: none;
+  color: #657b83; /* base00 */
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
+
   line-height: 1.5;
 
   -moz-tab-size: 4;
@@ -394,146 +413,93 @@ pre[class*="language-"] {
   hyphens: none;
 }
 
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  background: #073642; /* base02 */
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+  background: #073642; /* base02 */
+}
+
 /* Code blocks */
 pre[class*="language-"] {
-  position: relative;
+  padding: 1em;
   margin: .5em 0;
-  overflow: visible;
-  padding: 0;
-}
-pre[class*="language-"]>code {
-  position: relative;
-  border-left: 10px solid #358ccb;
-  box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
-  background-color: #fdfdfd;
-  background-image: linear-gradient(transparent 50%, rgba(69, 142, 209, 0.04) 50%);
-  background-size: 3em 3em;
-  background-origin: content-box;
-  background-attachment: local;
-}
-
-code[class*="language"] {
-  max-height: inherit;
-  height: inherit;
-  padding: 0 1em;
-  display: block;
   overflow: auto;
+  border-radius: 0.3em;
 }
 
-/* Margin bottom to accomodate shadow */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background-color: #fdfdfd;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-bottom: 1em;
+  background-color: #fdf6e3; /* base3 */
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-  position: relative;
-  padding: .2em;
-  border-radius: 0.3em;
-  color: #c92c2c;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  display: inline;
-  white-space: normal;
-}
-
-pre[class*="language-"]:before,
-pre[class*="language-"]:after {
-  content: '';
-  z-index: -2;
-  display: block;
-  position: absolute;
-  bottom: 0.75em;
-  left: 0.18em;
-  width: 40%;
-  height: 20%;
-  max-height: 13em;
-  box-shadow: 0px 13px 8px #979797;
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  transform: rotate(-2deg);
-}
-
-:not(pre) > code[class*="language-"]:after,
-pre[class*="language-"]:after {
-  right: 0.75em;
-  left: auto;
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  transform: rotate(2deg);
+  padding: .1em;
+  border-radius: .3em;
 }
 
 .token.comment,
-.token.block-comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #7D8B99;
+  color: #93a1a1; /* base1 */
 }
 
 .token.punctuation {
-  color: #5F6364;
+  color: #586e75; /* base01 */
+}
+
+.namespace {
+  opacity: .7;
 }
 
 .token.property,
 .token.tag,
 .token.boolean,
 .token.number,
-.token.function-name,
 .token.constant,
 .token.symbol,
 .token.deleted {
-  color: #c92c2c;
+  color: #268bd2; /* blue */
 }
 
 .token.selector,
 .token.attr-name,
 .token.string,
 .token.char,
-.token.function,
 .token.builtin,
+.token.url,
 .token.inserted {
-  color: #2f9c0a;
+  color: #2aa198; /* cyan */
 }
 
-.token.operator,
-.token.entity,
-.token.url,
-.token.variable {
-  color: #a67f59;
-  background: rgba(255, 255, 255, 0.5);
+.token.entity {
+  color: #657b83; /* base00 */
+  background: #eee8d5; /* base2 */
 }
 
 .token.atrule,
 .token.attr-value,
-.token.keyword,
+.token.keyword {
+  color: #859900; /* green */
+}
+
+.token.function,
 .token.class-name {
-  color: #1990b8;
+  color: #b58900; /* yellow */
 }
 
 .token.regex,
-.token.important {
-  color: #e90;
+.token.important,
+.token.variable {
+  color: #cb4b16; /* orange */
 }
 
-.language-css .token.string,
-.style .token.string {
-  color: #a67f59;
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.token.important {
-  font-weight: normal;
-}
-
+.token.important,
 .token.bold {
   font-weight: bold;
 }
@@ -545,52 +511,6 @@ pre[class*="language-"]:after {
   cursor: help;
 }
 
-.namespace {
-  opacity: .7;
-}
-
-@media screen and (max-width: 767px) {
-  pre[class*="language-"]:before,
-  pre[class*="language-"]:after {
-    bottom: 14px;
-    box-shadow: none;
-  }
-
-}
-
-/* Plugin styles */
-.token.tab:not(:empty):before,
-.token.cr:before,
-.token.lf:before {
-  color: #e0d7d1;
-}
-
-/* Plugin styles: Line Numbers */
-pre[class*="language-"].line-numbers.line-numbers {
-  padding-left: 0;
-}
-
-pre[class*="language-"].line-numbers.line-numbers code {
-  padding-left: 3.8em;
-}
-
-pre[class*="language-"].line-numbers.line-numbers .line-numbers-rows {
-  left: 0;
-}
-
-/* Plugin styles: Line Highlight */
-pre[class*="language-"][data-line] {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-}
-pre[data-line] code {
-  position: relative;
-  padding-left: 4em;
-}
-pre .line-highlight {
-  margin-top: 0;
-}
 
 pre[class*="language-"].line-numbers {
     position: relative;
